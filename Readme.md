@@ -11,7 +11,7 @@ Loggy is simple express server for remote logging with REST API and Wordpress pl
 
 ## Instalation node.js
 
-		npm install loggy
+		npm install Loggy
 
   See example/server.js if you want to use cluster or 
 
@@ -21,7 +21,7 @@ Loggy is simple express server for remote logging with REST API and Wordpress pl
 
 ##Usage
 
-  Visit localhost:3000 install bookmarklet and activate it on wordpress installation. Then where you want to use it
+  Visit localhost:3000 install bookmarklet and activate it on wordpress installation(login to it first as admin). Then where you want to use it
 
     global $Loggy;
     $Loggy->debug(string..array..object);    
